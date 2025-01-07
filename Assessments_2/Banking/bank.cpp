@@ -1,5 +1,5 @@
 #include<iostream>
-#include<vector>
+#include<map>
 using namespace std;
 
 class BankAccount{
@@ -11,69 +11,61 @@ class BankAccount{
 
 class Bank{
 	public:
-		vector<BankAccount> records;
+		map<string,BankAccount> records;
 
 		void OpenAccount(string no,string name,double obalance){
 			BankAccount ba;
 			ba.account_no=no;
 			ba.name=name;
 			ba.balance=obalance;
-			records.push_back(ba);
+			records.insert({no,ba});
 		}
 
 		void ShowAccount(string no){
-			int pos=search(no);
-			if(pos==-1)
+			auto emt=records.find(no);
+			if(emt==records.end())
 			{
 				cout<<"Account not found.\n";
 			}
 			else
 			{
-				cout<<"Account No.: "<<records[pos].account_no<<"\n";
-				cout<<"Account Holder Name: "<<records[pos].name<<"\n";
-				cout<<"Available Balance: "<<records[pos].balance<<"\n";
+				cout<<"Account No.: "<<records[no].account_no<<"\n";
+				cout<<"Account Holder Name: "<<records[no].name<<"\n";
+				cout<<"Available Balance: "<<records[no].balance<<"\n";
 			}
 		}
 
 		void Deposit(string no,double m){
-			int pos=search(no);
-			if(pos==-1)
+			auto emt=records.find(no);
+			if(emt==records.end())
 			{
 				cout<<"Account not found.\n";
 			}
 			else
 			{
-				records[pos].balance+=m;
+				records[no].balance+=m;
 				cout<<"Deposit Successful. ";
-				cout<<"New Balance: "<<records[pos].balance<<"\n";
+				cout<<"New Balance: "<<records[no].balance<<"\n";
 			}
 		}
 
 		void Withdraw(string no,double m){
-			int pos=search(no);
-			if(pos==-1)
+			auto emt=records.find(no);
+			if(emt==records.end())
 			{
 				cout<<"Account not found.\n";
 			}
 			else
 			{
-				if(records[pos].balance<m){
+				if(records[no].balance<m){
 					cout<<"Insufficient Balance.\n";
 				}
 				else{
-					records[pos].balance-=m;
+					records[no].balance-=m;
 					cout<<"Withdrawal Successful. ";
-					cout<<"New Balance: "<<records[pos].balance<<"\n";
+					cout<<"New Balance: "<<records[no].balance<<"\n";
 				}
 			}
-		}
-
-	private:
-		int search(string no){
-			for(int i=0;i<records.size();i++){
-				if(records[i].account_no==no) return i;
-			}
-			return -1;
 		}
 };
 
