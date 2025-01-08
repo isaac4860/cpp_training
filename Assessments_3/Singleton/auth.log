@@ -1,0 +1,212 @@
+Dec 20 06:16:23 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac/cpp/Assessments_2/Set_Time ; USER=root ; COMMAND=./stime
+Dec 20 06:16:23 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Jan 20 11:30:00 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:17:01 isaac CRON[25239]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 20 06:17:01 isaac CRON[25239]: pam_unix(cron:session): session closed for user root
+Dec 20 06:21:53 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac/cpp/Assessments_2/Set_Time ; USER=root ; COMMAND=./stime
+Dec 20 06:21:53 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Jan 20 11:30:00 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:22:50 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac/cpp/Assessments_2/Set_Time ; USER=root ; COMMAND=/usr/bin/timedatectl set-timezone Asia/Kolkata
+Dec 20 06:22:50 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 20 06:22:50 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:23:17 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac/cpp/Assessments_2/Set_Time ; USER=root ; COMMAND=./stime
+Dec 20 06:23:17 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Jan 20 06:00:00 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 20 06:25:01 isaac CRON[26480]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 20 06:25:01 isaac CRON[26480]: pam_unix(cron:session): session closed for user root
+Dec 20 06:47:10 isaac systemd-logind[679]: System is powering down.
+Dec 20 15:27:24 isaac sshd[749]: Server listening on 0.0.0.0 port 22.
+Dec 20 15:27:24 isaac sshd[749]: Server listening on :: port 22.
+Dec 20 15:27:24 isaac systemd-logind[683]: New seat seat0.
+Dec 20 15:27:24 isaac systemd-logind[683]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 20 15:27:24 isaac systemd-logind[683]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 20 15:27:24 isaac systemd-logind[683]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 20 15:27:32 isaac login[712]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 20 15:27:32 isaac systemd-logind[683]: New session 1 of user isaac.
+Dec 20 15:27:32 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 20 15:31:06 isaac sshd[1306]: Accepted password for isaac from 192.168.1.100 port 54431 ssh2
+Dec 20 15:31:06 isaac sshd[1306]: pam_unix(sshd:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 20 15:31:06 isaac systemd-logind[683]: New session 3 of user isaac.
+Dec 20 15:32:12 isaac sshd[1365]: Accepted password for isaac from 192.168.1.100 port 54434 ssh2
+Dec 20 15:32:12 isaac sshd[1365]: pam_unix(sshd:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 20 15:32:12 isaac systemd-logind[683]: New session 4 of user isaac.
+Dec 20 15:38:14 isaac sshd[1365]: pam_unix(sshd:session): session closed for user isaac
+Dec 20 15:38:14 isaac systemd-logind[683]: Session 4 logged out. Waiting for processes to exit.
+Dec 20 15:38:14 isaac systemd-logind[683]: Removed session 4.
+Dec 20 15:38:15 isaac sshd[1306]: pam_unix(sshd:session): session closed for user isaac
+Dec 20 15:38:15 isaac systemd-logind[683]: Session 3 logged out. Waiting for processes to exit.
+Dec 20 15:38:15 isaac systemd-logind[683]: Removed session 3.
+Dec 20 15:38:17 isaac sshd[1441]: Accepted password for isaac from 192.168.1.100 port 54450 ssh2
+Dec 20 15:38:17 isaac sshd[1441]: pam_unix(sshd:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 20 15:38:17 isaac systemd-logind[683]: New session 5 of user isaac.
+Dec 20 15:38:43 isaac sshd[1441]: pam_unix(sshd:session): session closed for user isaac
+Dec 20 15:38:43 isaac systemd-logind[683]: Session 5 logged out. Waiting for processes to exit.
+Dec 20 15:38:43 isaac systemd-logind[683]: Removed session 5.
+Dec 20 15:39:25 isaac systemd-logind[683]: System is powering down.
+Dec 22 19:25:03 isaac sshd[795]: Server listening on 0.0.0.0 port 22.
+Dec 22 19:25:03 isaac sshd[795]: Server listening on :: port 22.
+Dec 22 19:25:03 isaac systemd-logind[681]: New seat seat0.
+Dec 22 19:25:03 isaac systemd-logind[681]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 22 19:25:03 isaac systemd-logind[681]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 22 19:25:03 isaac systemd-logind[681]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 22 19:25:58 isaac login[712]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 22 19:25:58 isaac systemd-logind[681]: New session 1 of user isaac.
+Dec 22 19:25:58 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 22 19:30:43 isaac systemd-logind[681]: System is powering down.
+Dec 23 09:26:14 isaac systemd-logind[679]: New seat seat0.
+Dec 23 09:26:14 isaac systemd-logind[679]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 23 09:26:14 isaac systemd-logind[679]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 23 09:26:14 isaac systemd-logind[679]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 23 09:26:14 isaac sshd[783]: Server listening on 0.0.0.0 port 22.
+Dec 23 09:26:14 isaac sshd[783]: Server listening on :: port 22.
+Dec 23 09:26:22 isaac login[724]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 23 09:26:22 isaac systemd-logind[679]: New session 1 of user isaac.
+Dec 23 09:26:22 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 23 10:15:11 isaac systemd-logind[679]: System is powering down.
+Dec 23 19:01:52 isaac sshd[745]: Server listening on 0.0.0.0 port 22.
+Dec 23 19:01:52 isaac sshd[745]: Server listening on :: port 22.
+Dec 23 19:01:52 isaac systemd-logind[678]: New seat seat0.
+Dec 23 19:01:52 isaac systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 23 19:01:52 isaac systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 23 19:01:52 isaac systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 23 19:02:11 isaac login[696]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 23 19:02:11 isaac systemd-logind[678]: New session 1 of user isaac.
+Dec 23 19:02:11 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 23 19:17:01 isaac CRON[1367]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 23 19:17:01 isaac CRON[1367]: pam_unix(cron:session): session closed for user root
+Dec 23 20:17:01 isaac CRON[1519]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 23 20:17:01 isaac CRON[1519]: pam_unix(cron:session): session closed for user root
+Dec 23 21:17:01 isaac CRON[1590]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 23 21:17:01 isaac CRON[1590]: pam_unix(cron:session): session closed for user root
+Dec 23 22:17:01 isaac CRON[1614]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 23 22:17:01 isaac CRON[1614]: pam_unix(cron:session): session closed for user root
+Dec 23 23:30:44 isaac systemd-logind[1640]: New seat seat0.
+Dec 23 23:30:44 isaac systemd-logind[1640]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 23 23:30:44 isaac systemd-logind[1640]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 23 23:30:44 isaac systemd-logind[1640]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 23 23:30:44 isaac systemd-logind[1640]: New session 1 of user isaac.
+Dec 23 23:53:07 isaac systemd-logind[1640]: Delay lock is active (UID 0/root, PID 842/unattended-upgr) but inhibitor timeout is reached.
+Dec 23 23:53:07 isaac systemd-logind[1640]: System is powering down.
+Dec 24 08:42:28 isaac systemd-logind[677]: New seat seat0.
+Dec 24 08:42:28 isaac sshd[782]: Server listening on 0.0.0.0 port 22.
+Dec 24 08:42:28 isaac sshd[782]: Server listening on :: port 22.
+Dec 24 08:42:28 isaac systemd-logind[677]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 24 08:42:28 isaac systemd-logind[677]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 24 08:42:28 isaac systemd-logind[677]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 24 08:42:36 isaac login[713]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 24 08:42:36 isaac systemd-logind[677]: New session 1 of user isaac.
+Dec 24 08:42:36 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 24 09:17:01 isaac CRON[1828]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 24 09:17:01 isaac CRON[1828]: pam_unix(cron:session): session closed for user root
+Dec 24 09:19:33 isaac systemd-logind[677]: System is powering down.
+Dec 24 15:02:38 isaac sshd[750]: Server listening on 0.0.0.0 port 22.
+Dec 24 15:02:38 isaac sshd[750]: Server listening on :: port 22.
+Dec 24 15:02:38 isaac systemd-logind[678]: New seat seat0.
+Dec 24 15:02:38 isaac systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 24 15:02:38 isaac systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 24 15:02:38 isaac systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 24 15:02:50 isaac login[704]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 24 15:02:50 isaac systemd-logind[678]: New session 1 of user isaac.
+Dec 24 15:02:50 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 24 15:09:24 isaac systemd-logind[678]: System is powering down.
+Dec 25 00:47:26 isaac sshd[743]: Server listening on 0.0.0.0 port 22.
+Dec 25 00:47:26 isaac sshd[743]: Server listening on :: port 22.
+Dec 25 00:47:26 isaac systemd-logind[677]: New seat seat0.
+Dec 25 00:47:26 isaac systemd-logind[677]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 25 00:47:26 isaac systemd-logind[677]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 25 00:47:26 isaac systemd-logind[677]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 25 00:47:35 isaac login[702]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 25 00:47:35 isaac systemd-logind[677]: New session 1 of user isaac.
+Dec 25 00:47:35 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 25 01:06:58 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac ; USER=root ; COMMAND=/usr/bin/git clone git@github.com:Isaac4860/cpp-training
+Dec 25 01:06:58 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 25 01:07:01 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 25 01:07:38 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/Isaac4860/cpp-training
+Dec 25 01:07:38 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 25 01:08:08 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 25 01:10:10 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac ; USER=root ; COMMAND=/usr/bin/git clone https://github.com/Isaac4860/cpp-training cppt
+Dec 25 01:10:10 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 25 01:10:12 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 25 01:10:25 isaac systemd-logind[677]: System is powering down.
+Dec 25 11:08:04 isaac sshd[741]: Server listening on 0.0.0.0 port 22.
+Dec 25 11:08:04 isaac sshd[741]: Server listening on :: port 22.
+Dec 25 11:08:04 isaac systemd-logind[678]: New seat seat0.
+Dec 25 11:08:04 isaac systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Dec 25 11:08:04 isaac systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Dec 25 11:08:04 isaac systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Dec 25 11:08:26 isaac login[702]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Dec 25 11:08:26 isaac systemd-logind[678]: New session 1 of user isaac.
+Dec 25 11:08:26 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Dec 25 11:17:01 isaac CRON[1355]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Dec 25 11:17:01 isaac CRON[1355]: pam_unix(cron:session): session closed for user root
+Dec 25 11:25:28 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac ; USER=root ; COMMAND=/usr/bin/git clone git@github.com:Isaac4860/cpp_training.git
+Dec 25 11:25:28 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 25 11:25:29 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 25 11:25:37 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac ; USER=root ; COMMAND=/usr/bin/git clone git@github.com:isaac4860/cpp_training.git
+Dec 25 11:25:37 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Dec 25 11:25:39 isaac sudo: pam_unix(sudo:session): session closed for user root
+Dec 25 11:29:04 isaac systemd-logind[678]: System is powering down.
+Jan  7 10:41:11 isaac sshd[719]: Server listening on 0.0.0.0 port 22.
+Jan  7 10:41:11 isaac sshd[719]: Server listening on :: port 22.
+Jan  7 10:41:12 isaac systemd-logind[676]: New seat seat0.
+Jan  7 10:41:12 isaac systemd-logind[676]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 10:41:12 isaac systemd-logind[676]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  7 10:41:12 isaac systemd-logind[676]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  7 10:41:20 isaac login[705]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Jan  7 10:41:20 isaac systemd-logind[676]: New session 1 of user isaac.
+Jan  7 10:41:20 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Jan  7 11:04:45 isaac sudo:    isaac : TTY=tty1 ; PWD=/home/isaac/cpp/Assessments_2/Banking ; USER=root ; COMMAND=/usr/bin/apt install ncal
+Jan  7 11:04:45 isaac sudo: pam_unix(sudo:session): session opened for user root(uid=0) by isaac(uid=1000)
+Jan  7 11:04:52 isaac sudo: pam_unix(sudo:session): session closed for user root
+Jan  7 11:17:01 isaac CRON[1650]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  7 11:17:01 isaac CRON[1650]: pam_unix(cron:session): session closed for user root
+Jan  7 11:36:01 isaac systemd-logind[2070]: New seat seat0.
+Jan  7 11:36:01 isaac systemd-logind[2070]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 11:36:01 isaac systemd-logind[2070]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  7 11:36:01 isaac systemd-logind[2070]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  7 11:36:01 isaac systemd-logind[2070]: New session 1 of user isaac.
+Jan  7 12:26:32 isaac systemd-logind[2070]: Delay lock is active (UID 0/root, PID 798/unattended-upgr) but inhibitor timeout is reached.
+Jan  7 12:26:32 isaac systemd-logind[2070]: System is powering down.
+Jan  7 14:34:58 isaac sshd[783]: Server listening on 0.0.0.0 port 22.
+Jan  7 14:34:58 isaac sshd[783]: Server listening on :: port 22.
+Jan  7 14:34:58 isaac systemd-logind[678]: New seat seat0.
+Jan  7 14:34:58 isaac systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 14:34:58 isaac systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  7 14:34:58 isaac systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  7 14:35:24 isaac login[708]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Jan  7 14:35:24 isaac systemd-logind[678]: New session 1 of user isaac.
+Jan  7 14:35:24 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Jan  7 15:13:10 isaac systemd-logind[678]: System is powering down.
+Jan  7 21:19:07 isaac sshd[778]: Server listening on 0.0.0.0 port 22.
+Jan  7 21:19:07 isaac sshd[778]: Server listening on :: port 22.
+Jan  7 21:19:08 isaac systemd-logind[677]: New seat seat0.
+Jan  7 21:19:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  7 21:19:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  7 21:19:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  7 21:19:21 isaac login[708]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Jan  7 21:19:21 isaac systemd-logind[677]: New session 1 of user isaac.
+Jan  7 21:19:21 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Jan  7 21:32:43 isaac systemd-logind[677]: System is powering down.
+Jan  8 09:39:08 isaac sshd[736]: Server listening on 0.0.0.0 port 22.
+Jan  8 09:39:08 isaac sshd[736]: Server listening on :: port 22.
+Jan  8 09:39:08 isaac systemd-logind[677]: New seat seat0.
+Jan  8 09:39:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  8 09:39:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  8 09:39:08 isaac systemd-logind[677]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  8 09:39:17 isaac login[715]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Jan  8 09:39:17 isaac systemd-logind[677]: New session 1 of user isaac.
+Jan  8 09:39:17 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)
+Jan  8 10:17:01 isaac CRON[1363]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  8 10:17:01 isaac CRON[1363]: pam_unix(cron:session): session closed for user root
+Jan  8 11:17:01 isaac CRON[1395]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  8 11:17:01 isaac CRON[1395]: pam_unix(cron:session): session closed for user root
+Jan  8 11:42:28 isaac systemd-logind[677]: System is powering down.
+Jan  8 14:42:52 isaac systemd-logind[680]: New seat seat0.
+Jan  8 14:42:52 isaac systemd-logind[680]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  8 14:42:52 isaac systemd-logind[680]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  8 14:42:52 isaac systemd-logind[680]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  8 14:42:52 isaac sshd[789]: Server listening on 0.0.0.0 port 22.
+Jan  8 14:42:52 isaac sshd[789]: Server listening on :: port 22.
+Jan  8 14:43:04 isaac login[718]: pam_unix(login:session): session opened for user isaac(uid=1000) by LOGIN(uid=0)
+Jan  8 14:43:04 isaac systemd-logind[680]: New session 1 of user isaac.
+Jan  8 14:43:04 isaac systemd: pam_unix(systemd-user:session): session opened for user isaac(uid=1000) by (uid=0)

@@ -1,4 +1,6 @@
 #include<iostream>
+#include<fstream>
+#include<sstream>
 using namespace std;
 
 class ST{
@@ -33,6 +35,41 @@ class ST{
 		void s_text(string s){
 			text=s;
 		}
+
+		//Log Parser function
+		void parse(){
+			//Used to read original log file
+			ifstream inp_f("auth.log");
+			string s;	
+
+			//Deletes any existing file and remakes an empty one
+			ofstream new_f("outlog.txt",ios::out);
+			new_f.close();
+
+			//Used to append to final log output
+			ofstream app_f("outlog.txt",ios::app);
+
+			while(getline(inp_f,s)){
+				stringstream ss(s);
+				string w;
+
+				//Skips timestamp values
+				for(int i=0;i<3;i++){
+					ss>>w;
+				}
+
+				//
+				for(int i=0;i<3;i++){
+					ss>>w;
+					app_f<<w<<" ";
+				}
+				
+				app_f<<endl;
+			}
+
+			inp_f.close();
+			app_f.close();
+		}
 };
 
 ST* ST::ptr=nullptr;
@@ -42,6 +79,7 @@ int main(){
 	ST* p=ST::getp();
 	p->s_text("sample");
 	cout<<"The stored text in the instance is "<<p->g_text()<<endl;
+	p->parse();
 
 	return 0;
 }
