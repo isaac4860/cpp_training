@@ -6,8 +6,8 @@ cflags= -Wall -g
 
 prep: final clean
 
-final: main.o imp.o
-	$(cc) $(cflags) -o final main.o imp.o
+final: main.o imp.o alt/alt.o
+	$(cc) $(cflags) -o final/final main.o imp.o alt/alt.o
 
 main.o: main.cpp
 	$(cc) $(cflags) -c main.cpp
@@ -15,5 +15,8 @@ main.o: main.cpp
 imp.o: imp.cpp
 	$(cc) $(cflags) -c imp.cpp
 
+alt.o: alt/alt.cpp
+	$(cc) $(cflags) -c alt/alt.o
+
 clean:
-	rm -f main.o imp.o
+	rm -f main.o imp.o alt/alt.o

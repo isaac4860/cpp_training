@@ -3,4 +3,6 @@
 
 void print();
 
+void alt();
+
 #endif
