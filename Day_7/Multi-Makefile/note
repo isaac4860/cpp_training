@@ -1,0 +1,3 @@
+First makefile in src will create object files.
+Second makefile in exc will create executible file.
+Third makefile will run both makefiles.
